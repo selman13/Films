@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="icon" href="film.svg">
+    <title>Film site</title>
+    <style>
+        @media (max-width: 768px) {
+          .page {
+            background-color: orange;
+            margin-bottom: 7px;
+            transition: .6s;
+            }
+          .page:hover {
+            padding-left: 18px;
+            }
+          .card button {
+            margin-bottom: 15px;
+            /* margin-left: 40px; */
+          }
+          .bg-dark {
+            display: flex;
+            flex-direction: column;
+          }
+         .bg-dark .dropdown-toggle {
+          margin-left: 0px;
+         }
+        .dropdown-item {
+          transition: .9s;
+         }
+         .dropdown-item:hover {
+          background-color: red;
+         }
+        .series {
+          display: flex;
+          flex-direction: column;
+        }
+        .series button {
+          margin-bottom: 10px;
+        }
+      }
+        .card img.py-2 {
+          opacity: 50%;
+          transition: .7s;
+        }
+        .card img.py-2:hover {
+          opacity: 100%;
+          filter: drop-shadow(3px 5px 10px black);
+        }
+    </style>
+</head>
+<body style="background-color: #B1DDF1;">
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid d-flex" style="flex-direction: row; justify-content: s;">
+          <a class="navbar-brand" href="#"><img src="logo.svg" style="height: 70px; width: 70px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link  text-light page" style="font-weight: bold; font-family:Georgia, 'Times New Roman', Times, serif;" aria-current="page" href="index.html" >Popular movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light page" style="font-weight: bold; font-family:Georgia, 'Times New Roman', Times, serif;" href="azerbaijan.html" >Azerbaijani movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light page" style="font-weight: bold; font-family:Georgia, 'Times New Roman', Times, serif;" href="netflix.html">Netflix series</a>
+              </li>
+            </ul>
+            <div class="end ms-auto d-flex">
+              <div class="dropdown" style="margin-left: 20px;">
+                <button class="btn btn-danger dropdown-toggle my-1" style="margin-right: 160px;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Language
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"><img src="united-kingdom.png" style="width: 25px; height: 25px;"> UK</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="azerbaijan.png" style="width: 25px; height: 25px;"> AZ</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="turkey.png" style="width: 25px; height: 25px;"> TR</a></li>
+                </ul>
+              </div>
+
+              <div class="btn-group dropstart m-1">
+                <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-user" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Your profile</a></li>
+                  <li><a class="dropdown-item" href="#">Favorite movies</a></li>
+                  <li><a class="dropdown-item" href="#">Log out</a></li>
+                </ul>
+              </div>
+              </div>
+          </div>
+        </div>
+      </nav><br>
+    
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <li class="my-2" style="list-style-type: none;"><img src="netflix.svg" style="width: 50px; height: 50px;"></li>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <div class="series d-flex">
+            <div class="dropdown" style="margin-left: 145px;">
+              <button class="btn btn-secondary dropdown-toggle active" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                CRIME SERIES
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button"><a href="#one" style="text-decoration: none; color: black">Breaking Bad</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#two" style="text-decoration: none; color: black">Lupin</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#three" style="text-decoration: none; color: black">The Blacklist</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#four" style="text-decoration: none; color: black">Narcos</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#five" style="text-decoration: none; color: black">Lucifer</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#six" style="text-decoration: none; color: black">Dahmer</a></button></li>
+              </ul>
+            </div>
+
+            <div class="dropdown" style="margin-left: 145px;">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ACTION SERIES
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button"><a href="#seven" style="text-decoration: none; color: black">The 100</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#eight" style="text-decoration: none; color: black">El Chapo</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#nine" style="text-decoration: none; color: black">The Protector</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#ten" style="text-decoration: none; color: black">The Witcher</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#eleven" style="text-decoration: none; color: black">Snowpiercer</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#twelve" style="text-decoration: none; color: black">Outlander</a></button></li>
+              </ul>
+              </div>
+
+            <div class="dropdown" style="margin-left: 145px;">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SCI-FI SERIES
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button"><a href="#thirteen" style="text-decoration: none; color: black">Manifest</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#fourteen" style="text-decoration: none; color: black">Lost in space</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#fiveteen" style="text-decoration: none; color: black">Ragnorak</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#sixteen" style="text-decoration: none; color: black">3%</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#seventeen" style="text-decoration: none; color: black">The Sandman</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#eighteen" style="text-decoration: none; color: black">The Rain</a></button></li>
+              </ul>
+            </div>
+
+            <div class="dropdown" style="margin-left: 145px;">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                MYSTERY SERIES
+              </button>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button"><a href="#nineteen" style="text-decoration: none; color: black">13 reason why</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#twenty" style="text-decoration: none; color: black">Dark desire</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#tone" style="text-decoration: none; color: black">Mindhunter</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#ttwo" style="text-decoration: none; color: black">Dark</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#tthree" style="text-decoration: none; color: black">Triptych</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="#tfour" style="text-decoration: none; color: black">Glitch</a></button></li>
+             </ul>
+           </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="cards w-100 d-flex justify-content-around" style="flex-direction: row; flex-wrap: wrap;">
+        <div class="h3 w-100 ms-3 my-2">CRIME SERIES</div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="bb.jpg" class="card-img-top">
+          <div class="card-body" id="one">
+            <h5 class="card-title">Breaking Bad <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2008-2013</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.breakingbadizle.com/breaking-bad-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="lupin.jpg" class="card-img-top">
+          <div class="card-body" id="two">
+            <h5 class="card-title">Lupin <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2021-</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/lupin-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="france.png" style="width: 15px; height: 15px;"> FRANCE</small></p>
+          </div>
+        </div> 
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="blacklist.jpg" class="card-img-top">
+          <div class="card-body" id="three">
+            <h5 class="card-title">The Blacklist <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2013-2023</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.theblacklistizle.com/the-blacklist-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="narcos.jpg" class="card-img-top">
+          <div class="card-body" id="four">
+            <h5 class="card-title">Narcos <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2015-2017</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.narcosizle.com/narcos-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA <img src="colombia.png" style="width: 15px; height: 15px;"> COLOMBİA</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="lucifer.jpg" class="card-img-top">
+          <div class="card-body" id="five">
+            <h5 class="card-title">Lucifer <button class="btn btn-dark text-light border-radius:9px" style="margin-left:auto;">2016-2021</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.luciferizle.com/lucifer-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="dahmer.jpg" class="card-img-top">
+          <div class="card-body" id="six">
+            <h5 class="card-title">Dahmer <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2022-</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizimom.pro/dahmer-1-sezon-1-bolum-turkce-dublaj-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA</small></p>
+          </div>
+        </div>
+       
+        <div class="h3 w-100 ms-3 my-2">ACTION SERIES</div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="the100.jpg" class="card-img-top">
+          <div class="card-body" id="seven">
+            <h5 class="card-title">The 100 <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2014-2020</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.the100izle.com/the-100-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="chapo.jpg" class="card-img-top">
+          <div class="card-body" id="eight">
+            <h5 class="card-title">El Chapo <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2017-2018</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/el-chapo-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA</small></p>
+          </div>
+        </div> 
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="pro.jpg" class="card-img-top">
+          <div class="card-body" id="nine">
+            <h5 class="card-title">The Protector <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2018-2020</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/hakan-muhafiz-the-protector-1-sezon-1-bolum-hd-1-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="turkey.png" style="width: 15px; height: 15px;"> TURKEY</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="witcher.jpg" class="card-img-top">
+          <div class="card-body" id="ten">
+            <h5 class="card-title">The Witcher <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2019-</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/the-witcher-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA <img src="poland.png" style="width: 15px; height: 15px;"> POLAND</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="snow.jpg" class="card-img-top">
+          <div class="card-body" id="eleven">
+            <h5 class="card-title">Snowpiercer <button class="btn btn-dark text-light border-radius:9px" style="margin-left:auto;">2020-2022</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/snowpiercer-1-sezon-1-bolum-hd-1-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="out.jpg" class="card-img-top">
+          <div class="card-body" id="twelve">
+            <h5 class="card-title">Outlander <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2014-</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.outlanderizle.com/outlander-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA <img src="united-kingdom.png" style="width: 15px; height: 15px;"> UK</small></p>
+          </div>
+        </div>
+
+        <div class="h3 w-100 ms-3 my-2">SCI-FI SERIES</div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="manifest.jpg" class="card-img-top">
+          <div class="card-body" id="thirteen">
+            <h5 class="card-title">Manifest <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2018-</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/manifest-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="space.jpg" class="card-img-top">
+          <div class="card-body" id="fourteen">
+            <h5 class="card-title">Lost in space <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2018-2021</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/lost-in-space-1-sezon-1-bolum-hd-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA</small></p>
+          </div>
+        </div> 
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="ragnarok.jpg" class="card-img-top">
+          <div class="card-body" id="fiveteen">
+            <h5 class="card-title">Ragnarok <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2020-</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/ragnarok-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="norway.png" style="width: 15px; height: 15px;"> NORWAY <img src="denmark.png" style="width: 15px; height: 15px;"> DENMARK</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="three.jpg" class="card-img-top">
+          <div class="card-body" id="sixteen">
+            <h5 class="card-title">3% <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2016-2020</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/3-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="brazil.png" style="width: 15px; height: 15px;"> BRAZIL</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="sandman.jpg" class="card-img-top">
+          <div class="card-body" id="seventeen">
+            <h5 class="card-title">The Sandman <button class="btn btn-dark text-light border-radius:9px" style="margin-left:auto;">2022-</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/the-sandman-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="therain.jpg" class="card-img-top">
+          <div class="card-body" id="eighteen">
+            <h5 class="card-title">The Rain <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2018-2020</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/the-rain-1-sezon-1-bolum-hd-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="denmark.png" style="width: 15px; height: 15px;"> DENMARK</small></p>
+          </div>
+        </div>
+
+        <div class="h3 w-100 ms-3 my-2">MYSTERY SERIES</div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="reason.jpg" class="card-img-top">
+          <div class="card-body" id="nineteen">
+            <h5 class="card-title">13 reason why <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2017-2020</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/13-reasons-why-1-sezon-1-bolum-hd-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="desire.jpg" class="card-img-top">
+          <div class="card-body" id="twenty">
+            <h5 class="card-title">Dark desire <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2020-2022</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizigom.tv/dark-desire-1-sezon-1-bolum-hd1/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="mexico.png" style="width: 15px; height: 15px;"> MEXICO</small></p>
+          </div>
+        </div> 
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="mind.jpg" class="card-img-top">
+          <div class="card-body" id="tone">
+            <h5 class="card-title">Mindhunter <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2017-2019</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/mindhunter-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="united-states.png" style="width: 15px; height: 15px;"> USA</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="darkk.jpg" class="card-img-top">
+          <div class="card-body" id="ttwo">
+            <h5 class="card-title">Dark <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2017-2020</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/dark-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="germany.png" style="width: 15px; height: 15px;"> GERMANY</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="trip.jpg" class="card-img-top">
+          <div class="card-body" id="tthree">
+            <h5 class="card-title">Triptych <button class="btn btn-dark text-light border-radius:9px" style="margin-left:auto;">2023-</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizigom.tv/triptych-1-sezon-1-bolum-hd1/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="mexico.png" style="width: 15px; height: 15px;"> MEXICO</small></p>
+          </div>
+        </div>
+        <div class="card mb-3" style="width: 23rem;">
+          <img src="glitch.jpg" class="card-img-top">
+          <div class="card-body" id="tfour">
+            <h5 class="card-title">Glitch <button class="btn btn-dark text-light border-radius:9px" style="margin-left: auto;">2015-2019</button></h5>
+            <div class="btn-group d-flex">
+              <button class="btn btn-danger"><i class="fa-sharp fa-regular fa-circle-play"></i><a href="https://www.dizibox.tv/glitch-1-sezon-1-bolum-izle/" style="text-decoration: none; color: white"> Watch</a></button>
+            </div>
+            <p class="card-text mt-3" style="text-align: center; bottom: 0;"><small class="text-muted">COUNTRY: <img src="australia.png" style="width: 15px; height: 15px;"> AUSTRALIA</small></p>
+          </div>
+        </div>
+    </div>
+
+
+      <footer class="bg-primary d-flex justify-content-between" style="height: 60px; align-items: center;">
+        <div style="display: flex; flex-direction: row;" class="ms-3">
+          <img src="logo.svg" style="width: 25px; height: 25px; margin-right: 10px;">
+          <span class="text-dark" style="font-weight: bold;">Design by Selman Aliyev &copy;2023</span>
+        </div>
+        <div class="sm me-5">
+          <i class="fa-brands fa-facebook ms-1" style="font-size: 25px;"></i>
+          <i class="fa-brands fa-twitter ms-1" style="font-size: 25px;"></i>
+          <i class="fa-brands fa-instagram ms-1" style="font-size: 25px;"></i>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
