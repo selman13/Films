@@ -35,860 +35,1067 @@
 </head>
 <body style="background-color: #B1DDF1;">
   <nav class="navbar navbar-expand-lg bg-primary">
-        <div class="container-fluid d-flex" style="flex-direction: row; justify-content: s;">
-          <a class="navbar-brand" href="#"><img src="logo.svg" style="height: 70px; width: 70px;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link  text-light page" style="font-weight: bold; font-family:Georgia, 'Times New Roman', Times, serif;" aria-current="page" href="index.html" >Popular movies</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  text-light page" style="font-weight: bold; font-family:Georgia, 'Times New Roman', Times, serif;" href="azerbaijan.html" >Azerbaijani movies</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  text-light page" style="font-weight: bold; font-family:Georgia, 'Times New Roman', Times, serif;" href="netflix.html">Netflix series</a>
-              </li>
+    <div class="container-fluid d-flex" style="flex-direction: row; justify-content: s;">
+      <a class="navbar-brand" href="#"><img src="logo.svg" style="height: 70px; width: 70px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link  text-light page" style="font-weight: bold; font-family:Georgia, 'Times New Roman', Times, serif;" aria-current="page" href="index.html" >Popular movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light page" style="font-weight: bold; font-family:Georgia, 'Times New Roman', Times, serif;" href="azerbaijan.html" >Azerbaijani movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-light page" style="font-weight: bold; font-family:Georgia, 'Times New Roman', Times, serif;" href="netflix.html">Netflix series</a>
+          </li>
+        </ul>
+        <div class="end ms-auto d-flex">
+          <div class="dropdown">
+            <button class="btn btn-danger dropdown-toggle my-1" style="margin-right: 160px;" type="button" data-bs-toggle="dropdown" aria-expanded="false">Language</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><img src="united-kingdom.png" style="width: 25px; height: 25px;"> UK</a></li>
+              <li><a class="dropdown-item" href="#"><img src="azerbaijan.png" style="width: 25px; height: 25px;"> AZ</a></li>
+              <li><a class="dropdown-item" href="#"><img src="turkey.png" style="width: 25px; height: 25px;"> TR</a></li>
             </ul>
-            <div class="end ms-auto d-flex">
-              <div class="dropdown">
-                <button class="btn btn-danger dropdown-toggle my-1" style="margin-right: 160px;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Language
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#"><img src="united-kingdom.png" style="width: 25px; height: 25px;"> UK</a></li>
-                  <li><a class="dropdown-item" href="#"><img src="azerbaijan.png" style="width: 25px; height: 25px;"> AZ</a></li>
-                  <li><a class="dropdown-item" href="#"><img src="turkey.png" style="width: 25px; height: 25px;"> TR</a></li>
-                </ul>
-              </div>
-
-              <div class="btn-group dropstart m-1">
-                <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="fa-solid fa-user" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Your profile</a></li>
-                  <li><a class="dropdown-item" href="#">Favorite movies</a></li>
-                  <li><a class="dropdown-item" href="#">Log out</a></li>
-                </ul>
-              </div>
-              </div>
+          </div>
+          <div class="btn-group dropstart m-1">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-user" data-bs-toggle="dropdown" aria-expanded="false"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Your profile</a></li>
+              <li><a class="dropdown-item" href="#">Favorite movies</a></li>
+              <li><a class="dropdown-item" href="#">Log out</a></li>
+            </ul>
           </div>
         </div>
+      </div>
+    </div>
   </nav>
       
   <div class="azefilm d-flex justify-content-around my-2 w-100" style="flex-wrap: wrap;">
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="corek.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1971</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Şərikli çörək</h5>
-                  <p class="card-text text-light">Genre: Drama</p>
-                  <p class="card-text text-light">Director: Shamil Makhudbeyov</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/88uxFYb1354" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 68 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="corek.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1971</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Şərikli çörək</h5>
+            <p class="card-text text-light">Genre: Drama</p>
+            <p class="card-text text-light">Director: Shamil Makhudbeyov</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/88uxFYb1354" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 68 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="asirim.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1971</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Axırıncı aşırım</h5>
+            <p class="card-text text-light">Genre: Drama</p>
+            <p class="card-text text-light">Director: Kyamil Rustambekov</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/2ZX5ssKQwqw" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 84 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="asirim.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1971</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Axırıncı aşırım</h5>
-                  <p class="card-text text-light">Genre: Drama</p>
-                  <p class="card-text text-light">Director: Kyamil Rustambekov</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/2ZX5ssKQwqw" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 84 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="perde.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 2019</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Sonuncu pərdə</h5>
+            <p class="card-text text-light">Genre: Drama</p>
+            <p class="card-text text-light">Director: Emil Guliev</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://www.youtube.com/watch?v=ONTJWGpevXA&t=1689s" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 84 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="perde.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 2019</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Sonuncu pərdə</h5>
-                  <p class="card-text text-light">Genre: Drama</p>
-                  <p class="card-text text-light">Director: Emil Guliev</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://www.youtube.com/watch?v=ONTJWGpevXA&t=1689s" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 84 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="gun.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1971</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Gün keçdi</h5>
+            <p class="card-text text-light">Genre: Drama, Romance</p>
+            <p class="card-text text-light">Director: Arif Babayev</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/596lOCYdiaA" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 83 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="gun.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1971</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Gün keçdi</h5>
-                  <p class="card-text text-light">Genre: Drama, Romance</p>
-                  <p class="card-text text-light">Director:  Arif Babayev</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/596lOCYdiaA" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 83 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="ogey.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1958</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Ögey ana</h5>
+            <p class="card-text text-light">Genre: Drama</p>
+            <p class="card-text text-light">Director: Hebib Ismayilov</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://www.youtube.com/watch?v=Js9RX9k5VnI" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 82 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="ogey.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1958</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Ögey ana</h5>
-                  <p class="card-text text-light">Genre: Drama</p>
-                  <p class="card-text text-light">Director: Hebib Ismayilov</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://www.youtube.com/watch?v=Js9RX9k5VnI" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 82 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="buta.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 2011</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Buta</h5>
+            <p class="card-text text-light">Genre: Drama</p>
+            <p class="card-text text-light">Director: Ilgar Najaf</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://www.youtube.com/watch?v=SVHG9dcPZcw" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 98 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="buta.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 2011</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Buta</h5>
-                  <p class="card-text text-light">Genre: Drama</p>
-                  <p class="card-text text-light">Director: Ilgar Najaf</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://www.youtube.com/watch?v=SVHG9dcPZcw" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 98 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="yaramaz.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1988</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Yaramaz</h5>
+            <p class="card-text text-light">Genre: Comedy</p>
+            <p class="card-text text-light">Director: Vagif Mustafayev</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://www.youtube.com/watch?v=zkfAy7DUT3o" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 97 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="yaramaz.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1988</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Yaramaz</h5>
-                  <p class="card-text text-light">Genre: Comedy</p>
-                  <p class="card-text text-light">Director: Vagif Mustafayev</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://www.youtube.com/watch?v=zkfAy7DUT3o" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 97 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="nesimi.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1973</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Nəsimi</h5>
+            <p class="card-text text-light">Genre: Biography, Drama</p>
+            <p class="card-text text-light">Director: Hasan Seyidbayli</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://www.youtube.com/watch?v=U1csklsXuAs" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 96 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="nesimi.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1973</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Nəsimi</h5>
-                  <p class="card-text text-light">Genre: Biography, Drama</p>
-                  <p class="card-text text-light">Director: Hasan Seyidbayli</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://www.youtube.com/watch?v=U1csklsXuAs" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 96 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="yeddi.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1970</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Yeddi oğul istərəm</h5>
+            <p class="card-text text-light">Genre: Drama</p>
+            <p class="card-text text-light">Director: Tofig Taghizade </p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://www.youtube.com/watch?v=NI9D6hvuOGE" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 90 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="yeddi.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1970</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Yeddi oğul istərəm</h5>
-                  <p class="card-text text-light">Genre: Drama</p>
-                  <p class="card-text text-light">Director: Tofig Taghizade </p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://www.youtube.com/watch?v=NI9D6hvuOGE" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 90 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="sonuncu.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 2014</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Sonuncu</h5>
+            <p class="card-text text-light">Genre: Drama</p>
+            <p class="card-text text-light">Director: Sergey Pikalov</p>
+             <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://www.youtube.com/watch?v=WEDnGix7hXM" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 64 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="sonuncu.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 2014</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Sonuncu</h5>
-                  <p class="card-text text-light">Genre: Drama</p>
-                  <p class="card-text text-light">Director: Sergey Pikalov</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://www.youtube.com/watch?v=WEDnGix7hXM" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 64 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="kur.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1969</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Dəli Kür</h5>
+            <p class="card-text text-light">Genre: Drama</p>
+            <p class="card-text text-light">Director: Huseyn Seyidzadeh</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/yt-1zuQJ3nA" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+              </a>
+            </button>
+            <button class="btn btn-danger text-light" style="margin-right: 20px;">
+              <i class="fa-solid fa-comment text-dark"></i> Comment
+            </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 93 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="kur.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1969</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Dəli Kür</h5>
-                  <p class="card-text text-light">Genre: Drama</p>
-                  <p class="card-text text-light">Director: Huseyn Seyidzadeh</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/yt-1zuQJ3nA" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 93 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="babek.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1979</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Babək</h5>
+            <p class="card-text text-light">Genre: Drama</p>
+            <p class="card-text text-light">Director: Eldar Kuliyev</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/zJ_sqFsVIkE" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 137 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="babek.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1979</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Babək</h5>
-                  <p class="card-text text-light">Genre: Drama</p>
-                  <p class="card-text text-light">Director: Eldar Kuliyev</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/zJ_sqFsVIkE" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 137 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="zerbe.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1977</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Arxadan vurulan zərbə</h5>
+            <p class="card-text text-light">Genre: Crime, Drama</p>
+            <p class="card-text text-light">Director: Arif Babayev</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/HD_TLBLipgw" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 78 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="zerbe.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1977</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Arxadan vurulan zərbə</h5>
-                  <p class="card-text text-light">Genre: Crime, Drama</p>
-                  <p class="card-text text-light">Director: Arif Babayev</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/HD_TLBLipgw" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 78 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="otel.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1998</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Otel otağı</h5>
+            <p class="card-text text-light">Genre: Drama</p>
+            <p class="card-text text-light">Director: Rasim Ojagov</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/qJ9HOgUXRnk" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 89 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="otel.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1998</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Otel otağı</h5>
-                  <p class="card-text text-light">Genre: Drama</p>
-                  <p class="card-text text-light">Director: Rasim Ojagov</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/qJ9HOgUXRnk" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 89 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="uzuk.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1991</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Bəxt üzüyü</h5>
+            <p class="card-text text-light">Genre: Comedy, Drama</p>
+            <p class="card-text text-light">Director: Ramiz Azizbayli</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/aukYcHwiaaQ" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 96 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="uzuk.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1991</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Bəxt üzüyü</h5>
-                  <p class="card-text text-light">Genre: Comedy, Drama</p>
-                  <p class="card-text text-light">Director: Ramiz Azizbayli</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/aukYcHwiaaQ" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 96 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="feryad.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1993</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Fəryad</h5>
+            <p class="card-text text-light">Genre: Drama, War</p>
+            <p class="card-text text-light">Director: Ceyhun Mirzäyev</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/P0jcgIcdvpo" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 78 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="feryad.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1993</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Fəryad</h5>
-                  <p class="card-text text-light">Genre: Drama, War</p>
-                  <p class="card-text text-light">Director: Ceyhun Mirzäyev</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/P0jcgIcdvpo" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 78 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="ehmed.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1964</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Əhməd haradadır?</h5>
+            <p class="card-text text-light">Genre: Comedy</p>
+            <p class="card-text text-light">Director: Adil Isgändärov</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/-Y1JmAZeUMA" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 87 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="ehmed.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1964</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Əhməd haradadır?</h5>
-                  <p class="card-text text-light">Genre: Comedy</p>
-                  <p class="card-text text-light">Director: Adil Isgändärov</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/-Y1JmAZeUMA" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 87 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="nabat.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 2014</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Nabat</h5>
+            <p class="card-text text-light">Genre: Drama, War</p>
+            <p class="card-text text-light">Director: Elchin Musaoglu</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/t9NyeiJKTsQ" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 105 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="nabat.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 2014</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Nabat</h5>
-                  <p class="card-text text-light">Genre: Drama, War</p>
-                  <p class="card-text text-light">Director: Elchin Musaoglu</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/t9NyeiJKTsQ" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 105 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="dolu.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 2012</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Dolu</h5>
+            <p class="card-text text-light">Genre: War</p>
+            <p class="card-text text-light">Director: Elkhan Jafarov</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/xYcT3-9W1f0" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 84 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="dolu.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 2012</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Dolu</h5>
-                  <p class="card-text text-light">Genre: War</p>
-                  <p class="card-text text-light">Director: Elkhan Jafarov</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/xYcT3-9W1f0" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 84 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="adam.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 2005</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Adam ol</h5>
+            <p class="card-text text-light">Genre: Comedy</p>
+            <p class="card-text text-light">Director:  Vaqif Sarifov </p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/lCcFW0TFOBY" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 107 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="adam.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 2005</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Adam ol</h5>
-                  <p class="card-text text-light">Genre: Comedy</p>
-                  <p class="card-text text-light">Director:  Vaqif Sarifov </p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/lCcFW0TFOBY" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 107 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="yuxu.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 2001</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Yuxu</h5>
+            <p class="card-text text-light">Genre: Comedy, Romance</p>
+            <p class="card-text text-light">Director: Fikret Aliev</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/-QNxUhrhqk4" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 79 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="yuxu.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 2001</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Yuxu</h5>
-                  <p class="card-text text-light">Genre: Comedy, Romance</p>
-                  <p class="card-text text-light">Director: Fikret Aliev</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/-QNxUhrhqk4" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 79 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="kukla.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 2010</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Kuklalar</h5>
+            <p class="card-text text-light">Genre: Drama</p>
+            <p class="card-text text-light">Director: Çingiz Rasulzada</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/YNmh-fDHUk8" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 85 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="kukla.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 2010</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Kuklalar</h5>
-                  <p class="card-text text-light">Genre: Drama</p>
-                  <p class="card-text text-light">Director: Çingiz Rasulzada</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/YNmh-fDHUk8" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 85 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="hem.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1995</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Həm ziyarət, həm ticarət</h5>
+            <p class="card-text text-light">Genre: Comedy, Drama</p>
+            <p class="card-text text-light">Director: Rasim Ojagov</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/m80bPY_U5nI" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 81 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="hem.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1995</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Həm ziyarət, həm ticarət</h5>
-                  <p class="card-text text-light">Genre: Comedy, Drama</p>
-                  <p class="card-text text-light">Director: Rasim Ojagov</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/m80bPY_U5nI" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 81 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="yarasa.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1995</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Yarasa</h5>
+            <p class="card-text text-light">Genre: Drama</p>
+            <p class="card-text text-light">Director: Ayaz Salayev</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/OyZoIW1-Rw0" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 80 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="yarasa.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1995</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Yarasa</h5>
-                  <p class="card-text text-light">Genre: Drama</p>
-                  <p class="card-text text-light">Director: Ayaz Salayev</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/OyZoIW1-Rw0" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 80 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="bextiyar.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1955</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Bəxtiyar</h5>
+            <p class="card-text text-light">Genre: Comedy</p>
+            <p class="card-text text-light">Director: Letif Safarov</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/_vxgMXuHnwc" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 99 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="bextiyar.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1955</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Bəxtiyar</h5>
-                  <p class="card-text text-light">Genre: Comedy</p>
-                  <p class="card-text text-light">Director: Letif Safarov</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/_vxgMXuHnwc" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 99 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="girov.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 2006</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Girov</h5>
+            <p class="card-text text-light">Genre: Drama</p>
+            <p class="card-text text-light">Director: Eldar Kuliyev </p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/p0hsPdzM_zg" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 92 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="girov.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 2006</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Girov</h5>
-                  <p class="card-text text-light">Genre: Drama</p>
-                  <p class="card-text text-light">Director: Eldar Kuliyev </p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/p0hsPdzM_zg" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 92 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="yuk.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1995</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Yük</h5>
+            <p class="card-text text-light">Genre: Biography, Drama</p>
+            <p class="card-text text-light">Director: Rovshan Almuradli</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/Ep50r5AfYos" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 78 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="yuk.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1995</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Yük</h5>
-                  <p class="card-text text-light">Genre: Biography, Drama</p>
-                  <p class="card-text text-light">Director: Rovshan Almuradli</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/Ep50r5AfYos" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 78 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="ot.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 2017</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Kəklikotu</h5>
+            <p class="card-text text-light">Genre:Comedy</p>
+            <p class="card-text text-light">Director: Jafar Akhundzade</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/WF8-FVzkmgs" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 117 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="ot.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 2017</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Kəklikotu</h5>
-                  <p class="card-text text-light">Genre:Comedy</p>
-                  <p class="card-text text-light">Director: Jafar Akhundzade</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/WF8-FVzkmgs" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 117 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="axin.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 2014</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Axınla aşağı</h5>
+            <p class="card-text text-light">Genre: Drama</p>
+            <p class="card-text text-light">Director: Asif Rustamov</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/b6LmMIloALg" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
+            </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 90 mins</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="axin.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 2014</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Axınla aşağı</h5>
-                  <p class="card-text text-light">Genre: Drama</p>
-                  <p class="card-text text-light">Director: Asif Rustamov</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/b6LmMIloALg" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 90 mins</small>
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div class="card mb-3 bg-dark" style="width: 400px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="alma.jpg" class="img-fluid rounded-start py-2 ps-2">
+          <span class="ps-3 text-light" style="font-weight: bold;">History: 1975</span>
+          <div class="awesome justify-content-between">
+            <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
+            <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
+          </div>
         </div>
-
-        <div class="card mb-3 bg-dark" style="width: 400px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="alma.jpg" class="img-fluid rounded-start py-2 ps-2">
-                <span class="ps-3 text-light" style="font-weight: bold;">History: 1975</span>
-                <div class="awesome justify-content-between">
-                    <i class="fa-sharp fa-solid fa-plus ps-4 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-heart ps-3 text-light" style="font-size: 20px;"></i>
-                    <i class="fa-regular fa-star ps-3 text-light" style="font-size: 20px;"></i>
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title text-light">Alma almaya bənzər</h5>
-                  <p class="card-text text-light">Genre: Comedy</p>
-                  <p class="card-text text-light">Director: Arif Babayev</p>
-                  <div class="button d-flex mx-auto">
-                    <button class="btn btn-danger" style="margin-right: 20px;"><a href="https://youtu.be/cMuB6vv13Ps" class="text-light" style="text-decoration: none;"><i class="fa-solid fa-circle-play text-dark"></i> WATCH</a></button>
-                    <button class="btn btn-danger text-light" style="margin-right: 20px;"><i class="fa-solid fa-comment text-dark"></i> Comment</button>
-                  </div>
-                  <p class="card-text"><small class="text-light" style="position: absolute; bottom: 0;">Duration: 80 mins</small>
-                  </p>
-                </div>
-              </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Alma almaya bənzər</h5>
+            <p class="card-text text-light">Genre: Comedy</p>
+            <p class="card-text text-light">Director: Arif Babayev</p>
+            <div class="button d-flex mx-auto">
+              <button class="btn btn-danger" style="margin-right: 20px;">
+                <a href="https://youtu.be/cMuB6vv13Ps" class="text-light" style="text-decoration: none;">
+                  <i class="fa-solid fa-circle-play text-dark"></i> WATCH
+                </a>
+              </button>
+              <button class="btn btn-danger text-light" style="margin-right: 20px;">
+                <i class="fa-solid fa-comment text-dark"></i> Comment
+              </button>
             </div>
+            <p class="card-text">
+              <small class="text-light" style="position: absolute; bottom: 0;">Duration: 80 mins</small>
+            </p>
+          </div>
         </div>
+      </div>
+    </div>
   </div>
   
   <footer class="bg-primary d-flex justify-content-between" style="height: 60px; align-items: center;">
@@ -902,6 +1109,6 @@
       <i class="fa-brands fa-instagram ms-3" style="font-size: 25px;"></i>
     </div>
   </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
